@@ -411,25 +411,59 @@ footer ul a:hover{
 ==============================================================================*/
 
 .singlepost {
-    margin:6rem 0 2rem;
-
-}
-
-.singlepost__container{
-    width:var(--form-width);
-    background: var(--color-gray-900);
-    padding: 1rem 2rem 3rem;
-
-}
-
-.singlepost__thumbnail{
-    margin:1.5rem 0 1rem;
-}
-.singlepost__container p{
-    margin-top: 1rem;
-    line-height: 1.6rem;
-}
-
+	margin: 6rem 0 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+	.singlepost__container {
+	width: var(--form-width);
+	background: var(--color-gray-900);
+	padding: 3rem 4rem;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	border-radius: var(--card-border-radius-4);
+	}
+	.singlepost__container h2 {
+	margin-top: 0;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: var(--color-primary);
+	text-align: center;
+	}
+	.singlepost__author {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+	}
+	
+	.post__author-info h5 {
+	margin: 0.5rem 0;
+	font-size: 1rem;
+	font-weight:600;
+	color:var(--color-gray-500);
+	
+	
+	}	
+	.post__author-info small {
+	font-size: 0.9rem;
+	color: var(--color-gray-500);
+	text-align: center;
+	}
+	.singlepost__thumbnail img {
+	max-width: 100%;
+	height: auto;
+	border-radius: var(--card-border-radius-4);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 2rem 0;
+	}
+	.singlepost__container p {
+	margin-top: 1rem;
+	line-height: 1.8;
+	font-size: 1.1rem;
+	color: var(--color-gray-100);
+	text-align: justify;
+	}
 /*=======================================================================================
 ================= CATEGOTY POST ================================================================
 ==============================================================================*/
@@ -817,6 +851,7 @@ input,textarea,select{
     .singlepost__container{
         background-color: transparent;
         padding:0;
+        
     }
      /*====================== GENERAL FORM ================*/
      .form__section{
