@@ -321,6 +321,8 @@ footer ul a {
 footer ul a:hover {
   letter-spacing: 0.1rem;
   opacity: 1;
+  transition: var(--transition);
+  
 }
 
 .footer__copyright {
@@ -413,7 +415,7 @@ footer ul a:hover {
   border-radius: 2rem;
 }
 .dashboard aside a {
-  color: var(--color-green);
+  color: var(--color-white);
   background: var(--color-primary);
   display: flex;
   gap: 1rem;
@@ -487,7 +489,7 @@ footer ul a:hover {
   align-items: center;
 }
 .singlepost__container {
-  width: var(--form-width);
+  width: 45%;
   background: var(--color-gray-900);
   padding: 3rem 4rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -732,6 +734,14 @@ select {
     top: 100%;
     width: 100%;
   }
+  .nav__profile ul li a {
+    padding: 0 2rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    align-self: center;
+    display: flex;
+  }
 
   .nav__profile .avatar {
     margin-left: 2rem;
@@ -868,6 +878,9 @@ select {
     height: 100vh;
     transition: var(--transition);
     background: var(--color-primary);
+  }
+  .singlepost__container{
+    box-shadow: none;
   }
 
   .dashboard .sidebar__toggle {
