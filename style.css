@@ -903,7 +903,7 @@ select {
     display: inline-block;
   }
 
-  #show_sidebar-btn {
+  #hide_sidebar-btn {
     display: none;
   }
   /* #endregion  DASHBAORD*/
