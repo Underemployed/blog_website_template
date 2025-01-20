@@ -224,6 +224,12 @@ nav button {
   overflow: hidden;
 }
 
+.post__body {
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
 /* #endregion GENERAL POST */
 
 /* #region FEATURED */
@@ -908,3 +914,5 @@ select {
   /* #endregion  DASHBAORD*/
 }
 /* #endregion  MEDIA QUERIES (Small-Sized Devices) */
+
+
